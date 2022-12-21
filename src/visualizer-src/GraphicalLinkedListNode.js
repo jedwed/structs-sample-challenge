@@ -9,6 +9,8 @@ class GraphicalLinkedListNode {
   constructor(data) {
     this.data = data;
     this.next = null;
+
+    // Create circle and text elements on the canvas to visually represent the node
     const canvas = SVG("#canvas");
     this.svgCircle = canvas
       .circle(50)

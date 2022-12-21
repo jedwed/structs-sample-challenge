@@ -1,5 +1,5 @@
 function Canvas() {
-  return <svg id="canvas" style={{ width: "100vw" }} />;
+  return <svg id="canvas" />;
 }
 
 export default Canvas;
